@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1266F36-4429-F776-F9D1-4A89D1BA81D7" name="Old lisence">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 17:25:29 UTC</createdTime>
+<ownerDesignName>каршеринг</ownerDesignName>
+<engineerTo>
+<item key="641F5DC6-CBB4-BAFB-6F00-EA5EB64CA616" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Start date" id="97C20084-95D5-732D-208A-B58D65860434">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 17:27:10 UTC</createdTime>
+<comment><![CDATA[Начало лицензии]]></comment>
+<ownerDesignName>каршеринг</ownerDesignName>
+<engineerTo>
+<item key="641F5DC6-CBB4-BAFB-6F00-EA5EB64CA616" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End date" id="12EC56F4-F729-7B18-4FA5-60185DD33C73">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 17:27:25 UTC</createdTime>
+<comment><![CDATA[Конец удостоверения]]></comment>
+<ownerDesignName>каршеринг</ownerDesignName>
+<engineerTo>
+<item key="641F5DC6-CBB4-BAFB-6F00-EA5EB64CA616" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sorce" id="24238825-AFDC-4814-7612-C88BF3F135DE">
+<createdBy>user</createdBy>
+<createdTime>2024-04-08 17:27:38 UTC</createdTime>
+<comment><![CDATA[Источник]]></comment>
+<ownerDesignName>каршеринг</ownerDesignName>
+<engineerTo>
+<item key="641F5DC6-CBB4-BAFB-6F00-EA5EB64CA616" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

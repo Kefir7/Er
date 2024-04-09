@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B7E4B9B-4895-6203-1BEC-BC5D9C1B681B" name="Complaints/Feedback">
+<createdBy>user</createdBy>
+<createdTime>2024-03-31 14:27:26 UTC</createdTime>
+<ownerDesignName>каршеринг</ownerDesignName>
+<engineerTo>
+<item key="641F5DC6-CBB4-BAFB-6F00-EA5EB64CA616" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type" id="DB49E6AD-2158-4232-187C-08FDE3480B0B">
+<createdBy>user</createdBy>
+<createdTime>2024-03-31 14:28:10 UTC</createdTime>
+<comment><![CDATA[Тип обращения (жалоба или пожелание)]]></comment>
+<ownerDesignName>каршеринг</ownerDesignName>
+<engineerTo>
+<item key="641F5DC6-CBB4-BAFB-6F00-EA5EB64CA616" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Content " id="31461C4F-F361-BF92-4D20-14F6A9FAC36D">
+<createdBy>user</createdBy>
+<createdTime>2024-03-31 14:29:43 UTC</createdTime>
+<comment><![CDATA[Содержание обращения ]]></comment>
+<ownerDesignName>каршеринг</ownerDesignName>
+<engineerTo>
+<item key="641F5DC6-CBB4-BAFB-6F00-EA5EB64CA616" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
